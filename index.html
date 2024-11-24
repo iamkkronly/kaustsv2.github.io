@@ -28,9 +28,25 @@
 		<script>
             const baseUrl = 'https://ewasion2.github.io';
        	</script>
-		<script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1122428"></script>
-		<script data-cfasync="false" src="//dcbbwymp1bhlf.cloudfront.net/?wbbcd=1122429"></script>
-		
+		<script id="script">
+			var s = document.createElement("script")
+			s.src = "https://notix.io/ent/current/enot.min.js"
+			s.onload = function (sdk) {
+				sdk.startInstall(
+					{
+						"appId": "100828c1f6742e4760760255cd1a7c3",
+						"loadSettings": false,
+						//"step0": "onPermissionCanAsk",
+						"step0": "skip",
+						"view": "native",
+					}
+				)
+				sdk.SDKCaller.onPermissionAllowed(() => {
+					ga_send_event("push_subscribe");
+				});
+			}
+			document.head.append(s)
+		</script>
 		<!-- Google tag (gtag.js) -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1JR3EKCZ4T"></script>
 		<script>
@@ -39,6 +55,14 @@
 		  gtag('js', new Date());
 		
 		  gtag('config', 'G-1JR3EKCZ4T');
+		</script>
+		<script>
+		    /* Event Sender For Google Analytics */
+		    var ga_send_event = ( event_name ) => {
+		    	if( typeof gtag == 'function' ){
+		    		gtag( 'event', event_name, {event_name:event_name} );
+		    	}
+		    }
 		</script>
 	</head>
     <body>
@@ -121,8 +145,8 @@
 	
 	<div class="text-center container mt-2 mb-2">
 		<div class="mt-2 mb-2">
-			<script async="async" data-cfasync="false" src="//pl25095783.profitablecpmrate.com/ea2e84bbcd8eb38cda32631b51cc5936/invoke.js"></script>
-			<div id="container-ea2e84bbcd8eb38cda32631b51cc5936"></div>
+			<ins style="width: 0px;height:0px" data-width="0" data-height="0" data-max_height="280" class="c0f7436c6e0" data-domain="//125700.shop" data-affquery="/ded15a86271627a35be3/0f7436c6e0/?placementName=ewasion2">
+			<script src="//125700.shop/js/responsive.js" async></script></ins>
 		</div>
 	</div>
 
