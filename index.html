@@ -8,62 +8,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="yandex-verification" content="96f8b589379aede8" />
 		<meta name="google-site-verification" content="I5Ey9Cj-aSVyMkvrZSz0kL8EuKaZz-Cts2eFJqbMFgc" />
-		<title>ewasion: Direct Download Almost Anything [UPDATED]</title>
+		<title>Kaustav: Direct Download Almost Anything [UPDATED]</title>
 		<!-- SEO META -->
-		<meta name="description" content="ewasion: direct download almost anything like TV Series, Movies, Books, music, software, games, apk, and more. Take advantage of the powerful advanced search." />
+		<meta name="description" content="Kaustav: direct download almost anything like TV Series, Movies, Books, music, software, games, apk, and more. Take advantage of the powerful advanced search." />
 		<meta name="keywords" content="download,movies,games,music,softwares,epub,ebooks,pdf,mp3,songs,direct download,torrents,apk" />
-		<meta property="og:title" content="ewasion: Direct Download Almost Anything [UPDATED]" />
+		<meta property="og:title" content="Kaustav: Direct Download Almost Anything [UPDATED]" />
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content="https://ewasion2.github.io/" />
-		<meta property="og:image" content="https://ewasion2.github.io/static/images/site-image.png" />
+		<meta property="og:url" content="https://kaustav.github.io/" />
+		<meta property="og:image" content="https://kaustav.github.io/static/images/site-image.png" />
 		<meta property="og:site_name" content="GitHub Pages" />
-		<meta property="og:description" content="ewasion: direct download almost anything like TV Series, Movies, Books, music, software, games, apk, and more. Take advantage of the powerful advanced search." />
+		<meta property="og:description" content="Kaustav: direct download almost anything like TV Series, Movies, Books, music, software, games, apk, and more. Take advantage of the powerful advanced search." />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="robots" content="index, follow" />
-		<link rel="canonical" href="https://ewasion2.github.io/" />
+		<link rel="canonical" href="https://kaustav.github.io/" />
 		<meta name="theme-color" content="#ffffff" />
-        	<link rel="shortcut icon" href="https://ewasion2.github.io/static/images/favicon.png" />
+        	<link rel="shortcut icon" href="https://kaustav.github.io/static/images/favicon.png" />
 		<!-- END SEO META -->
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" media="all" />
-		<link rel="stylesheet" href="https://ewasion2.github.io/static/css/icons/icons.css?v=66dda74f93c80" defer="" />
-		<link rel="stylesheet" href="https://ewasion2.github.io/static/css/fonts/fonts.css?v=66dda74f93c82" defer="" />
-		<link rel="stylesheet" href="https://ewasion2.github.io/static/css/style.css?v=66dda74f93c83" />
+		<link rel="stylesheet" href="https://kaustav.github.io/static/css/icons/icons.css?v=66dda74f93c80" defer="" />
+		<link rel="stylesheet" href="https://kaustav.github.io/static/css/fonts/fonts.css?v=66dda74f93c82" defer="" />
+		<link rel="stylesheet" href="https://kaustav.github.io/static/css/style.css?v=66dda74f93c83" />
 		<script>
-            const baseUrl = 'https://ewasion2.github.io';
+            const baseUrl = 'https://kaustav.github.io';
        	</script>
-		<script id="script">
-			var s = document.createElement("script")
-			s.src = "https://notix.io/ent/current/enot.min.js"
-			s.onload = function (sdk) {
-				sdk.startInstall(
-					{
-						"appId": "100828c1f6742e4760760255cd1a7c3",
-						"loadSettings": false,
-						//"step0": "onPermissionCanAsk",
-						"step0": "skip",
-						"view": "native",
-					}
-				)
-				sdk.SDKCaller.onPermissionAllowed(() => {
-					ga_send_event("push_subscribe");
-				});
-			}
-			document.head.append(s)
-		</script>
-		<script>
-		    /* Event Sender For Google Analytics */
-		    var ga_send_event = ( event_name ) => {
-		    	if( typeof gtag == 'function' ){
-		    		gtag( 'event', event_name, {event_name:event_name} );
-		    	}
-		    }
-		</script>
 	</head>
     <body>
 	<header>
 		<nav class="navbar navbar-expand-lg bg-dark navbar-dark shadow-sm">
 			<div class="container">
-				<a class="navbar-brand fw-bold" href="/">Ewasion</a>
+				<a class="navbar-brand fw-bold" href="/">Kaustav</a>
 				<button class="navbar-toggler rounded-0 border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
@@ -92,117 +65,22 @@
                 <h1 class="fs-2 text-light fw-bold">Direct Download Almost Anything</h1>
                 <small class="text-light">Open directory search with dorks!</small>
             </div>
-            <form action="javascript:void(0)" id="doSearch" class="m-auto mt-0 mb-5" style="max-width:400px;width:100%;">
-                <input type="hidden" value="" id="fileType" />
-                <input type="hidden" value="google" id="engine" />
-                <input type="hidden" value="all" id="searchType" />
-                <div class="row row-cols-1">
-                    <div class="col">
-                    <div class="input-group">
-                            <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle rounded-end-0 border" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="fileTypeBTN">
-                                    Choose FileType
-                                </button>
-                                <ul class="dropdown-menu shadow-sm" style="font-size:14px;">
-                                    <li><span class="dropdown-item" onclick="set_file_type('video', this)"><i class="bi bi-film"></i> Tv/Movies/Video</span></li>
-                                    <li><span class="dropdown-item" onclick="set_file_type('ebook', this)"><i class="bi bi-book-fill"></i> Books</span></li>
-                                    <li><span class="dropdown-item" onclick="set_file_type('audio', this)"><i class="bi bi-music-note-beamed"></i> Music</span></li>
-                                    <li><span class="dropdown-item" onclick="set_file_type('archive', this)"><i class="bi bi-disc-fill"></i> Software/ISO/DMG/Games</span></li>
-                                    <li><span class="dropdown-item" onclick="set_file_type('picture', this)"><i class="bi bi-image"></i> Images</span></li>
-                                    <li><span class="dropdown-item" onclick="set_file_type('all', this)"><i class="bi bi-asterisk"></i> Others</span></li>
-                                </ul>
-                            </div>
-                            <div class="dropdown">
-                                <button class="btn btn-light dropdown-toggle rounded-start-0 border" type="button" data-bs-toggle="dropdown" aria-expanded="false" id="engineBTN">
-                                    <i class="bi bi-search"></i> Google
-                                </button>
-                                <ul class="dropdown-menu shadow-sm" style="font-size:14px;">
-                                    <li><span class="dropdown-item" onclick="set_engine('google', this)">Google</span></li>
-                                    <li><span class="dropdown-item" onclick="set_engine('bing', this)">Bing</span></li>
-                                    <li><span class="dropdown-item" onclick="set_engine('duckduckgo', this)">Duckduckgo</span></li>
-                                    <li><span class="dropdown-item" onclick="set_engine('startpage', this)">StartPage</span></li>
-                                    <li><span class="dropdown-item" onclick="set_engine('filepursuit', this)">FilePursuit</span></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col mt-1">
-                        <div class="input-group">
-                            <input type="text" id="searchInput" placeholder="Search anything..." class="form-control" />
-                            <button type="submit" id="doSearch" class="btn btn-md btn-primary" aria-label="search" role="button"><i class="bi bi-search"></i></button>
-                        </div>
-                    </div>
-                </div>
-            </form>
         </div>
     </div>
-	<div class="text-center py-1">
-		<!-- Yandex.RTB R-A-12135435-6 -->
-		<div id="yandex_rtb_R-A-12135435-6"></div>
-		<script>
-		window.yaContextCb.push(() => {
-		    Ya.Context.AdvManager.render({
-		        "blockId": "R-A-12135435-6",
-		        "renderTo": "yandex_rtb_R-A-12135435-6",
-		        "type": "feed"
-		    })
-		})
-		</script>
-	</div>
     <div class="bg-light p-3 py-5">
         <div class="container text-center">
             <h2 class="fw-bold">Direct Download Almost Anything</h2>
-            <p><strong>ewasion</strong> is an advanced search tool that helps you to <b>direct download almost anything</b> like TV shows, movies, software, ebooks, music, pictures, and more. Almost everything.</p>
-            <p>We help you with advanced search engine dorks to search any specific files or content, using our <strong>ewasion.github.io</strong> tool you can easily search the advanced deep search on any search engines.</p>
+            <p><strong>Kaustav</strong> is an advanced search tool that helps you to <b>direct download almost anything</b> like TV shows, movies, software, ebooks, music, pictures, and more.</p>
+            <p>We help you with advanced search engine dorks to search any specific files or content, using our <strong>kaustav.github.io</strong> tool you can easily search for deep search results on any search engine.</p>
 	    <h2 class="fw-bold">Open Directory Search</h2>
-	    <p>ewasion: allows you to search open directories through the search engines using deep search with dorks, this tool will help you to perform a deep search on major search engines to find direct download links for any files. find any specific files or content that you are looking for.</p>
+	    <p>Kaustav: allows you to search open directories through the search engines using deep search with dorks, this tool will help you to perform a deep search on major search engines to find direct download links for any files.</p>
         </div>
     </div>
-	    
-	<!-- Yandex.RTB R-A-12135435-5 -->
-	<script>
-	window.yaContextCb.push(() => {
-	    Ya.Context.AdvManager.render({
-	        "blockId": "R-A-12135435-5",
-	        "type": "floorAd",
-	        "platform": "desktop"
-	    })
-	})
-	</script>
-	<!-- Yandex.RTB R-A-12135435-2 -->
-	<script>
-	window.yaContextCb.push(() => {
-	    Ya.Context.AdvManager.render({
-	        "blockId": "R-A-12135435-2",
-	        "type": "floorAd",
-	        "platform": "touch"
-	    })
-	})
-	</script>
 		<div class="shadow-sm mb-0 bg-dark">
 			<footer class="py-3 container">
-				<p class="text-center text-light d-block">© 2024 <b>Ewasion</b> All Rights Are Reserved.</p>
-				<span class="d-block text-light text-center">Made With ❤️ From Bangladesh.</span>
+				<p class="text-center text-light d-block">© 2024 <b>Kaustav</b> All Rights Are Reserved.</p>
+				<span class="d-block text-light text-center">Made With ❤️ From Kolkata.</span>
 			</footer>
 		</div>
-        <!-- Footer Area -->
-		<script src="https://ewasion2.github.io/static/js/bootstrap.min.js?v=66dda74f93d59"></script>
-		<script src="https://ewasion2.github.io/static/js/app.min.js?v=66dda74f93d5c"></script>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript" >
-	   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-	   m[i].l=1*new Date();
-	   for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-	   k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-	   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-	
-	   ym(98274776, "init", {
-	        clickmap:true,
-	        trackLinks:true,
-	        accurateTrackBounce:true
-	   });
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/98274776" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-    </body>
+	</body>
 </html>
